@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="wGjCVl" name="standalone" projectType="guiapp" version="1.0.1"
+              bundleIdentifier="net.tanzvolk.PizzaKnobFilter" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.3" companyName="TANZVOLK" companyWebsite="">
+  <MAINGROUP id="rEFqQd" name="standalone">
+    <GROUP id="{B6EB776B-361D-4B6D-78CE-6CBB411F59E1}" name="Source">
+      <FILE id="t7mYjz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <GROUP id="{71AD7A56-C00E-2D21-A8C4-8FD9F1C2590B}" name="Resources">
+      <FILE id="dFK8T4" name="icon.png" compile="0" resource="1" file="../plugin/Resources/icon.png"/>
+      <FILE id="M0yCVJ" name="JUCE_JAPAN_DEMO_BG.png" compile="0" resource="1"
+            file="../plugin/Resources/JUCE_JAPAN_DEMO_BG.png"/>
+    </GROUP>
+    <GROUP id="{FE90DCCC-14B6-CFC7-263F-29AA867C96E6}" name="Source">
+      <FILE id="SdSj0O" name="PluginEditor.cpp" compile="1" resource="0"
+            file="../plugin/Source/PluginEditor.cpp"/>
+      <FILE id="sOHwBD" name="PluginEditor.h" compile="0" resource="0" file="../plugin/Source/PluginEditor.h"/>
+      <FILE id="GRBkeU" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="../plugin/Source/PluginProcessor.cpp"/>
+      <FILE id="kSUmqM" name="PluginProcessor.h" compile="0" resource="0"
+            file="../plugin/Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" externalLibraries="" extraDefs="JucePlugin_Name=&quot;DistortionFilter&quot;"
+               smallIcon="dFK8T4" bigIcon="dFK8T4">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="10.7 SDK" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="DistortionFilter" headerPath="../../Source"
+                       libraryPath="" cppLanguageStandard="c++14" cppLibType="libc++"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="10.7 SDK" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="DistortionFilter" headerPath="../../Source"
+                       libraryPath="" cppLanguageStandard="c++14" cppLibType="libc++"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015" externalLibraries="" extraDefs="JucePlugin_Name=&quot;DistortionFilter&quot;"
+            smallIcon="dFK8T4" bigIcon="dFK8T4">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="DistortionFilter32"
+                       headerPath="../../Source" libraryPath="" useRuntimeLibDLL="0"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="DistortionFilter32"
+                       headerPath="../../Source" libraryPath="" useRuntimeLibDLL="0"/>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="DistortionFilter64"
+                       headerPath="../../Source" libraryPath="" useRuntimeLibDLL="0"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       targetName="DistortionFilter64" headerPath="../../Source" optimisation="3"
+                       useRuntimeLibDLL="0"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../juce/modules"/>
+        <MODULEPATH id="juce_events" path="../juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../juce/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_ASIO="enabled"/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
