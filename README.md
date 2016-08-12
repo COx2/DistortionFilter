@@ -1,22 +1,18 @@
-## PizzaKnobFilter plugin for VST/AudioUnits & stand alone for Windows/MacOS ##
+## DistortionFilter plugin for VST/AudioUnits & stand alone for Windows/MacOS ##
 
-Project Name : PizzaKnobFilter
+Project Name : DistortionFilter
 
-Product Name : Oh! TSUMAMI (OmantiqueVST technology powered by TANZVOLK, injekted with a poison by OmanticRecords)
+Product Name : None
 
 Current Version : V1.0.0
 
 License : GPL
 
-[Omantic Records](http://omantic.me/ "Omantic Records")
-
 [TANZVOLK](http://tanzvolk.net/ "TANZVOLK")
 
-This VST/AudioUnits plugin effect provides an emulated High-Pass filter and Low-Pass filter with stimulying GUI.
+## What's an DistortionFilter? ##
 
-## What's an PizzaKnobFilter? ##
-
-The PizzaKnobFilter is a basic High-Pass filter and Low-Pass filter.
+The DistortionFilter is a basic High-Pass filter and Low-Pass filter.
 
 ## Building ##
 
