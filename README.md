@@ -6,7 +6,7 @@ Product Name : None
 
 Current Version : V1.0.0
 
-License : GPL
+License : GPL v3
 
 [TANZVOLK](http://tanzvolk.net/ "TANZVOLK")
 
